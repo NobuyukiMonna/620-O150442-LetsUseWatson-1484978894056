@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 620-O150442-LetsUseWatson
+  host: 620-O150442-LetsUseWatson
+  disk_quota: 1024M
+  services:
+  - 620-O150442-LetsUseWatson-cloudantNoSQLDB
+  - availability-monitoring-auto
